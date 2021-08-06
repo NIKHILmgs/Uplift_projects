@@ -1,0 +1,105 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Work+Sans:wght@300;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital@1&family=Yellowtail&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@0,300;1,400&family=Yellowtail&display=swap');
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2018/03/09/14/41/model-3211627__340.jpg');
+            
+        background-repeat: no-repeat;
+        background-size: 100%;
+         }
+         .navbar li{
+             padding: 2px 2px;
+        
+            margin-left: 10px;
+            font-size: small;
+            
+             
+         }
+         .navbar li a:hover,
+    .navbar li a.active {
+        background-color: rgb(3, 28, 250);
+       
+
+        
+    }
+             
+         
+         .navbar ul{
+             margin-top: 0px;
+             margin-left: 73%;
+             position:absolute;
+             display:flex;
+             list-style: none;
+             
+         }
+         .navbar li a{
+            
+            font-family: Work+Sans;
+             text-decoration: none;
+             color:white;
+             background-color:#300cf1c4;
+             border: 0.1em solid aqua;
+             border-radius: 8px;
+              font-size:25px;
+              padding: 1px 5px 1px 5px;
+         }
+         .container{
+             padding: 65px;
+             border: 2px solid black;
+             border-radius: 30px;
+             background-color: rgba(20, 115, 197, 0.308);
+             left: 3%;
+             top: 25%;
+             position: absolute;
+             display:flex;
+             color: black;
+             margin: 40px;
+             
+         }
+         .container:hover{
+             background-color: rgba(0, 0, 255, 0.596);
+         }
+         .item:hover{
+             background-color: hsl(350, 100%, 75%);
+         }
+         .item{
+             font-family: ubuntu;
+             top:50%;
+             left:30%;
+             box-shadow: 10px;
+             
+             background-color: pink;
+             border:1px solid pink;
+             margin:10px;
+             padding:2px;
+         }
+         #item-1{
+            padding: 4px;
+             border: 1px solid pink;
+             border-radius: 10px;
+         }
+         #item-2{
+            padding: 4px;
+             border: 1px solid pink;
+             border-radius: 10px;
+         }
+         #item-3{
+             padding: 4px;
+             border: 1px solid pink;
+             border-radius: 10px;
+         }
+         #head1{
+             color: aliceblue;
+             text-align: center;
+             
+         }
+         .heading{
+             margin-top: 5%;
+             position: absolute;
+             left: 35%;
+         }
+         .heading:hover{
+             color:rgba(125, 231, 231, 0.712)
+         }
+         

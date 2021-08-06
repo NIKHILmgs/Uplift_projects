@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Work+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital@1&family=Yellowtail&display=swap');
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/09/14/41/model-3211627__340.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar li {
+    font-family: Work+Sans;
+    padding: 2px 2px;
+
+    margin-left: 10px;
+    font-size: small;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background-color:  rgb(3, 28, 250);
+   
+
+
+}
+
+
+.navbar ul {
+    margin-top: 0px;
+    margin-left: 73%;
+    position: absolute;
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    color: white;
+    background-color: #300cf1c4;
+    border: 0.1em solid aqua;
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 1px 5px 1px 5px;
+
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+
+}
+
+.container:hover {
+    background-color: rgba(5, 255, 255, 0.89);
+}
+
+.head1 {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    text-shadow: 20px;
+    font-family: Yellowtail;
+
+}
+
+.head1 h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.projects {
+    padding: 55px;
+    border: 2px solid black;
+    border-radius: 180px;
+    background-color: rgba(255, 4, 4, 0.603);
+    left: 0%;
+    top: 25%;
+    position: absolute;
+    display: flex;
+    display: table-column;
+    color: black;
+    margin: 40px;
+    font-family:ubuntu;
+}
+
+#item1 {
+    background-image: url('https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+}
+
+#item2 {
+    background-image: url('pythonimg.jpg');
+}
+
+#item3 {
+    background-image: url();
+}
+
+.container1 {
+    display: flex;
+    gap: 30%;
+   
+}
+
+.contact {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: rgba(22, 101, 219, 0.849);
+    border: 3px dotted blue;
+    border-radius: 60%;
+    padding: 6%;
+    font-family: Ubuntu;
+}
+.forms input {
+    border: 1px solid black;
+    border-radius: 2%;
+
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    left: 34%;
+  
+    bottom: 10%;
+    font-size: 302%;
+}
+#insta i{
+    color : rgb(224, 0, 94);
+}
+#gmail i{
+    color: #ff0000;
+}
+#linkedin i{
+    color: blue;
+}
